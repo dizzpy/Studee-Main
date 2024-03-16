@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Studee_Main.Views;
+using Studee_Main.Views.Authentication;
 
 namespace Studee_Main
 {
@@ -16,7 +18,7 @@ namespace Studee_Main
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SplashScreen());
+            Application.Run(new LoginForm());
         }
     }
 }

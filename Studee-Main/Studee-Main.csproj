@@ -102,6 +102,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Res\images\authentication\login.png" />
+    <Content Include="Res\images\authentication\register.png" />
+    <Content Include="Res\images\exitButton.png" />
     <Content Include="Res\images\MainLogo.png" />
     <Content Include="Res\images\SplashScreenLogo.png" />
   </ItemGroup>
