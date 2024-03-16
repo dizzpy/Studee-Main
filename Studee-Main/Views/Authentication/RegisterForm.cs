@@ -16,5 +16,6 @@ namespace Studee_Main.Views.Authentication
         {
             InitializeComponent();
         }
+
     }
 }
