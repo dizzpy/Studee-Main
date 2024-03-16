@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Studee_Main
+namespace Studee_Main.Views.Authentication
 {
-    public partial class Form1 : Form
+    public partial class RegisterForm : Form
     {
-        public Form1()
+        public RegisterForm()
         {
             InitializeComponent();
         }
