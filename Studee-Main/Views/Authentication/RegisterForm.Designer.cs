@@ -139,6 +139,7 @@
             this.RegisterButton.Size = new System.Drawing.Size(280, 45);
             this.RegisterButton.TabIndex = 7;
             this.RegisterButton.Text = "Register";
+            this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
             // 
             // label5
             // 
