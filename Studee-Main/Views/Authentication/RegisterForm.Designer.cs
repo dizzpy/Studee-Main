@@ -161,6 +161,7 @@
             this.LoginText.Size = new System.Drawing.Size(55, 26);
             this.LoginText.TabIndex = 8;
             this.LoginText.Text = "login";
+            this.LoginText.Click += new System.EventHandler(this.LoginText_Click);
             // 
             // panel3
             // 
@@ -180,7 +181,7 @@
             this.panel4.Controls.Add(this.panel1);
             this.panel4.Controls.Add(this.RegisterButton);
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(476, 12);
+            this.panel4.Location = new System.Drawing.Point(14, 15);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(420, 536);
             this.panel4.TabIndex = 12;
@@ -285,8 +286,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Studee_Main.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 40);
+            this.pictureBox1.Image = global::Studee_Main.Properties.Resources.register;
+            this.pictureBox1.Location = new System.Drawing.Point(453, 43);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(440, 480);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -302,6 +303,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel4);
             this.Name = "RegisterForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

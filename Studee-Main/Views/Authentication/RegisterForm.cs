@@ -17,5 +17,11 @@ namespace Studee_Main.Views.Authentication
             InitializeComponent();
         }
 
+        private void LoginText_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm logg = new LoginForm();
+            logg.ShowDialog();
+        }
     }
 }

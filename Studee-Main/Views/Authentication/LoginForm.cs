@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +18,11 @@ namespace Studee_Main.Views.Authentication
             InitializeComponent();
         }
 
+        private void SignUpText_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegisterForm reg = new RegisterForm();
+            reg.ShowDialog();
+        }
     }
 }
