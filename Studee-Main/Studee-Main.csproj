@@ -71,6 +71,42 @@
     <Compile Include="Views\Authentication\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainDashboard.Designer.cs">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\DashboardUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\DashboardUC.Designer.cs">
+      <DependentUpon>DashboardUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\EventsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\EventsUC.Designer.cs">
+      <DependentUpon>EventsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\NoteLibraryUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\NoteLibraryUC.Designer.cs">
+      <DependentUpon>NoteLibraryUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\TimerUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\TimerUC.Designer.cs">
+      <DependentUpon>TimerUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\ToDoListUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UserControlsForms\ToDoListUC.Designer.cs">
+      <DependentUpon>ToDoListUC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,6 +123,24 @@
     <EmbeddedResource Include="Views\Authentication\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainDashboard.resx">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserControlsForms\DashboardUC.resx">
+      <DependentUpon>DashboardUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserControlsForms\EventsUC.resx">
+      <DependentUpon>EventsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserControlsForms\NoteLibraryUC.resx">
+      <DependentUpon>NoteLibraryUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserControlsForms\TimerUC.resx">
+      <DependentUpon>TimerUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserControlsForms\ToDoListUC.resx">
+      <DependentUpon>ToDoListUC.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,7 +154,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Res\DashboardIcons\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Res\images\MainLogo.png" />
     <Content Include="Res\images\SplashScreenLogo.png" />
