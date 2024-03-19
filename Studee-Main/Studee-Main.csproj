@@ -101,11 +101,11 @@
     <Compile Include="Views\UserControlsForms\TimerUC.Designer.cs">
       <DependentUpon>TimerUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\UserControlsForms\ToDoListUC.cs">
+    <Compile Include="Views\UserControlsForms\toDoListUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\UserControlsForms\ToDoListUC.Designer.cs">
-      <DependentUpon>ToDoListUC.cs</DependentUpon>
+    <Compile Include="Views\UserControlsForms\toDoListUC.Designer.cs">
+      <DependentUpon>toDoListUC.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -138,8 +138,8 @@
     <EmbeddedResource Include="Views\UserControlsForms\TimerUC.resx">
       <DependentUpon>TimerUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\UserControlsForms\ToDoListUC.resx">
-      <DependentUpon>ToDoListUC.cs</DependentUpon>
+    <EmbeddedResource Include="Views\UserControlsForms\toDoListUC.resx">
+      <DependentUpon>toDoListUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

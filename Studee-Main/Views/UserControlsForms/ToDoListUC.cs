@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Studee_Main.Views.UserControlsForms
 {
-    public partial class ToDoListUC : UserControl
+    public partial class toDoListUC : UserControl
     {
-        public ToDoListUC()
+        public toDoListUC()
         {
             InitializeComponent();
         }

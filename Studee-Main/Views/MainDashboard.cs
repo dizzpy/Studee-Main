@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Studee_Main.Views.UserControlsForms;
+using System;
 using System.Windows.Forms;
 
 namespace Studee_Main.Views
@@ -19,7 +13,33 @@ namespace Studee_Main.Views
 
         private void MainDashboard_Load(object sender, EventArgs e)
         {
+            dashboardUC1.Show();
+            eventsUC1.Hide();
+            toDoListUC1.Hide();
+            timerUC1.Hide();
+            noteLibraryUC1.Hide();
+            dashboardUC1.BringToFront();
+        }
 
+
+        private void DoToListButton_Click(object sender, EventArgs e)
+        {
+            dashboardUC1.Hide();
+            eventsUC1.Hide();
+            toDoListUC1.Show();
+            timerUC1.Hide();
+            noteLibraryUC1.Hide();
+            toDoListUC1.BringToFront();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            dashboardUC1.Show();
+            eventsUC1.Hide();
+            toDoListUC1.Hide();
+            timerUC1.Hide();
+            noteLibraryUC1.Hide();
+            dashboardUC1.BringToFront();
         }
     }
 }
